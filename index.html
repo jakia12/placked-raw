@@ -98,19 +98,19 @@
 
       .vid_style {
         width: 500px;
-        height: 350px;
+        height: 420px;
         position: absolute;
-        top: -400px;
+        top: -480px;
         left: 4%;
       }
 
       @media screen and (max-width: 768px) {
         .vid_style {
-          width: 500px;
-          height: 350px;
+          max-width: 100%;
+          height: 300px;
           position: absolute;
           top: -400px;
-          left: -22%;
+          left: -13%;
         }
       }
     </style>
@@ -2678,12 +2678,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 550px;
-                height: 550px;
+                width: 850px;
+                height: 750px;
                 position: relative;
               "
             >
-              <video class="vid_style" autoplay>
+              <video controls loop class="vid_style" autoplay>
                 <source src="/vid.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
